@@ -1,0 +1,27 @@
+{
+  "name": "proxy-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node app"
+  },
+  "keywords": [
+    "proxy"
+  ],
+  "author": "Shibin You",
+  "license": "MIT",
+  "dependencies": {
+    "@koa/cors": "^4.0.0",
+    "dotenv": "^16.3.1",
+    "http-proxy-middleware": "^2.0.6",
+    "koa": "^2.14.2",
+    "koa2-connect": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.8",
+    "prettier": "^3.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}

@@ -1,0 +1,21 @@
+{  
+  "compilerOptions": {  
+    "target": "es6",  
+    "module": "commonjs",  
+    "strict": true,  
+    "esModuleInterop": true,  
+    "resolveJsonModule": true,  
+    "moduleResolution": "node",  
+    "experimentalDecorators": true,  
+    "allowJs": true,  
+    "checkJs": false,  
+    "jsx": "react",  
+    "noImplicitAny": false,  
+    "noImplicitThis": false,  
+    "noPropertyAccessFromIndexSignature": true,  
+    "removeComments": false,  
+    "skipLibCheck": true  
+  },  
+  "include": ["*.ts", "*.d.ts"],  
+  "exclude": ["node_modules"]  
+}
